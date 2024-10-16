@@ -1,0 +1,29 @@
+.button.backButton {
+    background-color: #FEC89A;
+}
+
+.info {
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+}
+
+.divTitle2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p.imagen {
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.button.editButton {
+    background-color: #FEC89A;
+}
+
+.editDiv {
+    display: flex;
+    justify-content: flex-end;
+}

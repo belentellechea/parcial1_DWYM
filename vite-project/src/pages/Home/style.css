@@ -1,0 +1,10 @@
+.divTitle {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+h1.title {
+    color: #FEC89A;
+}
