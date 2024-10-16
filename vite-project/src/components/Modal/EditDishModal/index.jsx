@@ -35,7 +35,7 @@ export function EditDishModal({ editDish, visible, setVisible, dish }) {
                             type="text" 
                             id="recetaInput" 
                             name="receta"
-                            value={formData.name}
+                            defaultValue={formData.name}
                             onChange={handleInputChange}/>
                         </div>
 
@@ -45,7 +45,7 @@ export function EditDishModal({ editDish, visible, setVisible, dish }) {
                             type="text" 
                             id="imagenInput" 
                             name="imagen"
-                            value={formData.image}
+                            defaultValue={formData.image}
                             onChange={handleInputChange}/>
                         </div>
 
@@ -55,7 +55,7 @@ export function EditDishModal({ editDish, visible, setVisible, dish }) {
                             type="text" 
                             id="descripcionInput" 
                             name="descripcion"
-                            value={formData.description}
+                            defaultValue={formData.description}
                             onChange={handleInputChange}/>
                         </div>
 
@@ -67,7 +67,7 @@ export function EditDishModal({ editDish, visible, setVisible, dish }) {
                             type="text" 
                             id="preparacionInput" 
                             name="preparacion"
-                            value={formData.preparation}
+                            defaultValue={formData.preparation}
                             onChange={handleInputChange}/>
                         </div>
 
@@ -77,7 +77,7 @@ export function EditDishModal({ editDish, visible, setVisible, dish }) {
                             type="text" 
                             id="categoriaInput" 
                             name="categoria"
-                            value={formData.type}
+                            defaultValue={formData.type}
                             onChange={handleInputChange}/>
                         </div>
                     </div>

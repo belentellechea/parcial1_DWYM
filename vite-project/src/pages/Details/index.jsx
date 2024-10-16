@@ -39,7 +39,7 @@ export function Details({editDish}) {
     return (
         !isLoading && <div>
             <button className="button backButton" onClick={goBackHome}>Atrás</button>
-            <div className='info'>
+            <div className='info is-mobile'>
                 <div className='divTitle2'>
                     <h1 className='title title-is-1'><strong>Detalles</strong></h1>
                     <p className='imagen'>{dish?.image}</p>

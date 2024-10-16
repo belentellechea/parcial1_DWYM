@@ -56,8 +56,8 @@ function App() {
             'Content-Type': 'application/json',
         },
       });
-      setTasks(prevTasks => 
-        prevTasks.map(task => task.id === id ? response.data : task)
+      setDishes(prevDishes => 
+        prevDishes.map(dish => dish.id === id ? response.data : dish)
       );
     } catch (error) {
       console.log("Error updating task: ", error); 
